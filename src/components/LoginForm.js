@@ -19,7 +19,7 @@ const Modal = () => {
       window.location.reload();
       setError('');
     } catch (err) {
-      setError('incorrect credentials.');
+      setError('Entered credentials are invalid.');
     }
   };
 
